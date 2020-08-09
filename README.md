@@ -1,4 +1,4 @@
-#  Face recognition based Attendance Management System
+#  Facial recognition based Attendance Management System
 
 This repository contains code for facial recognition using openCV and python with a tkinter gui interface. If you want to test the code then run train.py file
 
@@ -7,7 +7,7 @@ Technology used :
 -Python
 -tkinter GUI interface
 
-Here I am working on Face recognition based Attendance Management System by using OpenCV(Python). One can mark thier attendance by simply facing the camera. 
+Here I am working on Facial recognition based Attendance Management System by using OpenCV(Python). One can mark thier attendance by simply facing the camera. 
 
 How it works :
 
