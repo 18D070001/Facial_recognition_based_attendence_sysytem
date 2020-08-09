@@ -1,18 +1,23 @@
 #  Facial recognition based Attendance Management System
 
-This repository contains code for facial recognition using openCV and python with a tkinter gui interface. If you want to test the code then run train.py file
+![title](facial.png)
 
-Technology used :
--openCV (Opensource Computer Vision)
--Python
--tkinter GUI interface
 
-Here I am working on Facial recognition based Attendance Management System by using OpenCV(Python). One can mark thier attendance by simply facing the camera. 
+This repository contains code for facial recognition using OpenCV and python with a Tkinter GUI interface. If you want to test the code, then run the train.py file.
 
+The technology used: OpenCV (Opensource Computer Vision) -Python -Tkinter  GUI interface
+
+
+Here I am working on a Face recognition based Attendance Management System by using OpenCV(Python). One can mark their attendance by merely facing the camera.
 How it works :
 
-When we run train.py a window is opened and ask for Enter Id and Enter Name. After enter name and id then we have to click Take Images button. By clicking Take Images camera of running computer is opened and it start taking image sample of person.This Id and Name is stored in folder StudentDetails and file name is StudentDetails.csv. It takes 60 images as sample and store them in folder TrainingImage.After completion it notify that iamges saved.
-After taking image sample we have to click Train Image button.Now it take few seconds to train machine for the images that are taken by clicking Take Image button and creates a Trainner.yml file and store in TrainingImageLabel folder.
-Now all initial setups are done. By clicking Track Image button camera of running machine is opened again. If face is recognised by system then Id and Name of person is shown on Image. Press Q(or q) for quit this window.After quitting it attendance of person will be stored in Attendance folder as csv file with name, id, date and time and it is also available in window.
+When we run, train.py, a window is opened and asks for entering Id and Enter Name. 
 
-![title](facial.png)
+After entering the name and id, then we have to click the Take Images button. By clicking Take Images camera of running, the computer is opened, and it starts taking an image sample of the person. This Id and Name is stored in folder StudentDetails, and the file name is StudentDetails.csv. It takes 60 images as a sample and stores them in folder TrainingImage.After completion, it notifies that pictures saved.
+
+After taking the image sample, we have to click the Train Image button. It takes a few seconds to train the machine for the images taken by clicking the Take Image button and creating a Trainner.yml file and store in the TrainingImageLabel folder. 
+
+Now all initial setups are done. By clicking the Track Image button camera of the running machine is opened again. If the system recognizes the face, then Id and Name of person are shown on Image.
+
+Press Q(or q) for quit this window. After quitting it, attendance of person will be stored in the Attendance folder as CSV file with name, id, date, and time and it is also available in the window.
+
